@@ -1,7 +1,8 @@
 # SSM-Attack: Learning Where to Perturb for Black-Box Face Privacy
 
-**Tunahan Parlayıcı, Erchan Aptoula, Yücel Saygın**
-Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Türkiye
+**Tunahan Parlayıcı¹, Erchan Aptoula¹, Yücel Saygın²**
+¹ Computer Vision and Pattern Analysis Laboratory ([VPALab](https://www.vpalab.com)), Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Türkiye  
+² Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Türkiye
 
 > **Status:** The manuscript is under review. Code and pretrained models will be released in this repository upon acceptance. The release plan is listed below.
 
@@ -17,7 +18,7 @@ The central idea is to separate two decisions. A selective state space model (Ma
 
 - **Allocation, not synthesis.** The network predicts a spatial budget map; the values come from projected refinement, so the per-pixel ℓ∞ bound (ε ≤ 0.10) holds at every step.
 - **Strict black-box protocol.** Leave-one-out over four face recognition models: the held-out target is used neither in training nor at protection time, and it is never queried.
-- **Compact.** The allocation network has 5.98M parameters (16.38M including the frozen networks used by the quality terms) and needs no retraining for new identities.
+- **Compact.** The allocation network has 5.73M parameters (16.13M including the frozen networks used by the quality terms) and needs no retraining for new identities.
 
 ## Results
 
