@@ -6,7 +6,7 @@ Faculty of Engineering and Natural Sciences, Sabancı University, Istanbul, Tür
 > **Status:** The manuscript is under review. Code and pretrained models will be released in this repository upon acceptance. The release plan is listed below.
 
 <p align="center">
-  <img src="assets/figure1.png" width="92%" alt="SSM-Attack overview: (a) protection pipeline, (b) Mamba allocation network, (c) budget allocation step by step">
+  <img src="assets/figure1_allocation.png" width="92%" alt="SSM-Attack overview: (a) protection pipeline, (b) Mamba allocation network, (c) budget allocation step by step">
 </p>
 
 ## Overview
