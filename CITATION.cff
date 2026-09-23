@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below. The entry will be updated when the paper is published."
+title: "SSM-Attack: Learning Where to Perturb for Black-Box Face Privacy"
+type: software
+authors:
+  - family-names: "Parlayıcı"
+    given-names: "Tunahan"
+    orcid: "https://orcid.org/0000-0001-7250-6375"
+    affiliation: "Sabancı University"
+  - family-names: "Aptoula"
+    given-names: "Erchan"
+    affiliation: "Sabancı University"
+  - family-names: "Saygın"
+    given-names: "Yücel"
+    affiliation: "Sabancı University"
+repository-code: "https://github.com/7unahan/PrivacySSM"
+date-released: 2026-09-23
+keywords:
+  - face privacy
+  - adversarial perturbation
+  - state space models
+  - Mamba
+  - face recognition
